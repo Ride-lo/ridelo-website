@@ -31,10 +31,10 @@ const Footer = () => {
             <img src={logo} alt="logo" className="mb-4" />
           </a>
           <p class="mt-2 text-sm text-justify text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-            at sequi cum, impedit fuga in placeat illo eum minima possimus est
-            perferendis distinctio explicabo eos natus consequuntur blanditiis
-            odio optio?
+            Ridelo helps create a single platform wherein various cab providers,
+            cab aggregators and cab affliators are brought to the same platform
+            such that it would be beneficial for the customers for making the
+            choice of their preference.
           </p>
           <div class="flex mt-4">
             <input
