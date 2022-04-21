@@ -54,7 +54,7 @@ const Footer = () => {
             </button>
           </div>
           <div class="flex justify-center mt-4 lg:mt-2">
-            <a>
+            <a href="/#">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -66,7 +66,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a class="ml-3">
+            <a class="ml-3" href="/#">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -78,7 +78,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a class="ml-3">
+            <a class="ml-3" href="/#">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -92,7 +92,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a class="ml-3">
+            <a class="ml-3" href="/#">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -115,30 +115,36 @@ const Footer = () => {
           <div class="w-full pt-14 px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-white hover:text-custom-yellow">Home</a>
+                <a class="text-white hover:text-custom-yellow " href="/#">
+                  Home
+                </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">How it Works</a>
+                <a class="text-white hover:text-custom-yellow" href="/#">
+                  How it Works
+                </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">Features</a>
+                <a class="text-white hover:text-custom-yellow" href="/#">
+                  Features
+                </a>
               </li>
             </ul>
           </div>
           <div class="w-full px-4  pt-14  lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-white hover:text-custom-yellow">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   Terms and Conditions
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   Privacy policy
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow" href="#">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   About
                 </a>
               </li>
@@ -147,27 +153,31 @@ const Footer = () => {
           <div class="w-full  pt-14  px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-white hover:text-custom-yellow">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   Become a Driver
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">Cities</a>
+                <a class="text-white hover:text-custom-yellow" href="/#">
+                  Cities
+                </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">Contact us</a>
+                <a class="text-white hover:text-custom-yellow" href="/#">
+                  Contact us
+                </a>
               </li>
             </ul>
           </div>
           <div class="w-full  pt-14  px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
-                <a class="text-white hover:text-custom-yellow">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   Info@Ridelo.in
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-custom-yellow">
+                <a class="text-white hover:text-custom-yellow" href="/#">
                   +91 99590250019
                 </a>
               </li>
