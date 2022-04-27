@@ -3,6 +3,7 @@ import ridetype from '../../Images/ridetype.png'
 import pickup from '../../Images/pickup.png'
 import companies from '../../Images/companies.png'
 import cabtype from '../../Images/cabtype.png'
+import '../HowItWorks/works.css'
 
 const works = () => {
   return (
@@ -12,7 +13,7 @@ const works = () => {
       </div>
       <div className="my-12 md:flex items-center justify-center">
         <ul className="md:flex md:px-36 items-center justify-center mt-16">
-          <li className="mr-5">
+          <li className="mr-5 ">
             <div className="text-center md:text-left text-2xl font-semibold py-5">
               Select your ride category
             </div>
@@ -32,8 +33,8 @@ const works = () => {
           </li>
         </ul>
       </div>
-      <div className="my-16  md:flex items-center justify-center">
-        <ul className="md:flex md:px-36  items-center justify-around mt-24">
+      <div className="my-16 md:flex items-center justify-center">
+        <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center justify-around mt-24">
           <li>
             <div class="md:flex items-center my-12 md:my-0 box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-br from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[20deg] mt-24 md:mt-0 ">
               <img
@@ -77,7 +78,7 @@ const works = () => {
         </ul>
       </div>
       <div className="my-16 md:my-0 md:flex items-center justify-center">
-        <ul className="md:flex md:px-36 items-center justify-between mt-24 ">
+        <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center md:justify-between mt-24 ">
           <li>
             <div class="md:flex items-center my-12 box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-br from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[20deg] mt-24 md:mt-0 ">
               <img
@@ -98,6 +99,7 @@ const works = () => {
           </li>
         </ul>
       </div>
+      <div id="features"></div>
     </div>
   )
 }

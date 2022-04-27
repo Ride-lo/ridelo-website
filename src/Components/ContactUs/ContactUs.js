@@ -86,11 +86,6 @@ const ContactUs = () => {
                 Submit
               </button>
             </div>
-            <div>
-              <div class="mt-2 text-gray-700 text-right text-xs">
-                <a href="/" class="hover:underline" target="_blank"></a>
-              </div>
-            </div>
           </form>
         </div>
       </div>

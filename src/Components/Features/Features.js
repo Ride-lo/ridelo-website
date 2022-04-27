@@ -6,7 +6,7 @@ import Feature3 from '../../Images/feature3.png'
 const Features = () => {
   return (
     <div className="md:mt-32">
-      <div className="text-4xl font-semibold text-center py-8 mt-12 ">
+      <div className="text-4xl font-semibold text-center py-8 mt-12">
         Features
       </div>
       <div className="text-center">
@@ -43,7 +43,7 @@ const Features = () => {
             <div className="text-3xl text-center font-semibold">
               A faster way to get around
             </div>
-            <div className="px-10 py-6 text-justify max-w-4xl">
+            <div className="px-10 py-6 text-justify max-w-4xl" id="contact">
               Cabs that are nearest to your pickup location are shown on the
               map. Book the cab available nearest to you to save time and travel
               faster.

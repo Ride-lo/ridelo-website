@@ -8,9 +8,9 @@ import '../Navbar/Navbar.css'
 const Navbar = () => {
   let Links = [
     { name: 'Home', link: '/' },
-    { name: 'Features', link: '/' },
-    { name: 'How it works', link: '/' },
-    { name: 'Contact us', link: '/' },
+    { name: 'Features', link: '#features' },
+    { name: 'How it works', link: '#howitworks' },
+    { name: 'Contact us', link: '#contact' },
   ]
   let [open, setOpen] = useState(false)
 
@@ -84,6 +84,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <div id="howitworks"></div>
     </div>
   )
 }
