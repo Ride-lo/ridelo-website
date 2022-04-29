@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="bg-custom-yellow w-full h-screen " id="diagonal-bg">
       <div className="bg-custom-yellow w-full fixed top-0 left-0 z-40">
-        <div className="md:flex items-center justify-between bg-custom-yellow py-1 md:px-10 px-7">
+        <div className="md:flex items-center justify-between bg-custom-yellow py-0 md:px-10 px-7">
           <div
             className="relative font-bold text-2xl cursor-pointer flex items-center 
       text-black"
@@ -25,13 +25,13 @@ const Navbar = () => {
             <img
               src={companyLogo}
               alt="company Logo"
-              className="pl-20 mr-12 pb-0 py-4 md:pt-4"
+              className="pl-8 md:pl-20 mr-12 pb-0 scale-90"
             />
           </div>
 
           <div
             onClick={() => setOpen(!open)}
-            className="text-3xl absolute right-12 top-12 cursor-pointer md:hidden"
+            className="text-3xl absolute right-12 top-9 cursor-pointer md:hidden"
           >
             <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
           </div>
