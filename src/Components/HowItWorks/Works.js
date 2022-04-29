@@ -5,7 +5,7 @@ import companies from '../../Images/companies.png'
 import cabtype from '../../Images/cabtype.png'
 import '../HowItWorks/works.css'
 
-const WorkDesktop = () => {
+const Works = () => {
   return (
     <div className="-z-1">
       <div className="text-4xl font-semibold text-center md:text-center justify-center w-full py-4 md:px-10 px-7">
@@ -23,11 +23,17 @@ const WorkDesktop = () => {
             </div>
           </li>
           <li>
-            <div class="md:flex items-center my-12 md:my-0 static box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-bl from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[-20deg] mt-24 md:mt-0">
+            <div
+              class="md:flex items-center my-12 md:my-0 md:static 
+                     md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
+                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[-20deg]
+                     md:mt-24 md:mt-0"
+            >
               <img
                 src={ridetype}
                 alt="ridetype"
-                className="md:skew-y-[20deg] relative items-center"
+                className="md:skew-y-[20deg] relative items-center shadow-2xl md:shadow-none"
               />
             </div>
           </li>
@@ -36,11 +42,17 @@ const WorkDesktop = () => {
       <div className="my-16 md:flex items-center justify-center">
         <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center justify-around mt-24">
           <li>
-            <div class="md:flex items-center my-12 md:my-0 box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-br from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[20deg] mt-24 md:mt-0 ">
+            <div
+              class="md:flex items-center my-12 md:my-0 md:static 
+                     md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
+                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[20deg]
+                     md:mt-24 md:mt-0"
+            >
               <img
                 src={cabtype}
                 alt="ridetype"
-                className="md:skew-y-[-20deg] relative items-center"
+                className="md:skew-y-[-20deg] relative items-center shadow-2xl md:shadow-none"
               />
             </div>
           </li>
@@ -67,11 +79,18 @@ const WorkDesktop = () => {
             </div>
           </li>
           <li>
-            <div class="md:flex items-center my-12 md:my-0  box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-bl from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[-20deg] mt-24 md:mt-0">
+            <div
+              class="md:flex items-center my-12 md:my-0 md:static 
+                     md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
+                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[-20deg]
+                     md:mt-24 md:mt-0"
+            >
               <img
                 src={pickup}
                 alt="ridetype"
-                className="md:skew-y-[20deg] relative items-center"
+                className="md:skew-y-[20deg] relative 
+                items-center shadow-2xl md:shadow-none"
               />
             </div>
           </li>
@@ -80,11 +99,17 @@ const WorkDesktop = () => {
       <div className="my-16 md:my-0 md:flex items-center justify-center">
         <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center md:justify-between mt-24 ">
           <li>
-            <div class="md:flex items-center my-12 box-border h-64 w-96 text-white max-w-xs my-auto mx-auto bg-gradient-to-br from-custom-yellow to-white p-4 py-5 px-5 rounded-xl md:skew-y-[20deg] mt-24 md:mt-0 ">
+            <div
+              class="md:flex items-center my-12 md:my-0 md:static 
+                     md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
+                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[20deg]
+                     md:mt-24 md:mt-0"
+            >
               <img
                 src={companies}
                 alt="ridetype"
-                className="md:skew-y-[-20deg] relative items-center"
+                className="md:skew-y-[-20deg] relative items-center shadow-2xl md:shadow-none"
               />
             </div>
           </li>
@@ -104,4 +129,4 @@ const WorkDesktop = () => {
   )
 }
 
-export default WorkDesktop
+export default Works
