@@ -71,16 +71,12 @@ const Navbar = () => {
         book cabs from all the major cab providers on a real time basis.
       </div>
       <div className="install buttons">
-        <ul className="flex flex-row">
+        <ul className="flex flex-row items-center justify-around mt-16">
           <li className="flex">
-            <img src={IosLogo} alt="IoSLogo" className="pt-6 pl-12 mt-10" />
+            <img src={IosLogo} alt="IoSLogo" className="" />
           </li>
           <li className="flex">
-            <img
-              src={PlayLogo}
-              alt="PlayLogo"
-              className="pt-6 pl-20 mr-24 mt-10"
-            />
+            <img src={PlayLogo} alt="PlayLogo" className="" />
           </li>
         </ul>
       </div>
