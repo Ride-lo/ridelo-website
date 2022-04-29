@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="md:flex items-center justify-between bg-custom-yellow py-0 md:px-10 px-7">
           <div
             className="relative font-bold text-2xl cursor-pointer flex items-center 
-      text-black"
+              text-black"
           >
             <img
               src={companyLogo}
@@ -71,7 +71,7 @@ const Navbar = () => {
         book cabs from all the major cab providers on a real time basis.
       </div>
       <div className="install buttons">
-        <ul className="flex flex-row items-center justify-around mt-16">
+        <ul className="flex flex-row items-center justify-around mt-16 md:w-2/5">
           <li className="flex">
             <img src={IosLogo} alt="IoSLogo" className="" />
           </li>
