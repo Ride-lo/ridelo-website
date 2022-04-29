@@ -33,7 +33,7 @@ const Works = () => {
               <img
                 src={ridetype}
                 alt="ridetype"
-                className="md:skew-y-[20deg] relative items-center shadow-2xl md:shadow-none"
+                className="md:skew-y-[20deg] relative items-center "
               />
             </div>
           </li>
@@ -52,7 +52,7 @@ const Works = () => {
               <img
                 src={cabtype}
                 alt="ridetype"
-                className="md:skew-y-[-20deg] relative items-center shadow-2xl md:shadow-none"
+                className="md:skew-y-[-20deg] relative items-center "
               />
             </div>
           </li>
@@ -90,7 +90,7 @@ const Works = () => {
                 src={pickup}
                 alt="ridetype"
                 className="md:skew-y-[20deg] relative 
-                items-center shadow-2xl md:shadow-none"
+                items-center "
               />
             </div>
           </li>
@@ -109,7 +109,7 @@ const Works = () => {
               <img
                 src={companies}
                 alt="ridetype"
-                className="md:skew-y-[-20deg] relative items-center shadow-2xl md:shadow-none"
+                className="md:skew-y-[-20deg] relative items-center "
               />
             </div>
           </li>
