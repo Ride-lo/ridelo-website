@@ -14,7 +14,7 @@ const ImageTitle = [
   '3. Enter Pickup and Drop location',
   '4. Choose the cab with best price & fastest ETA.',
 ]
-const HIWorks = () => {
+const WorkMobile = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handleOnPrevClick = () => {
@@ -53,4 +53,4 @@ const HIWorks = () => {
   )
 }
 
-export default HIWorks
+export default WorkMobile

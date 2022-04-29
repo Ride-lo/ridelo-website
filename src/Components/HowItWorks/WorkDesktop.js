@@ -5,7 +5,7 @@ import companies from '../../Images/companies.png'
 import cabtype from '../../Images/cabtype.png'
 import '../HowItWorks/works.css'
 
-const works = () => {
+const WorkDesktop = () => {
   return (
     <div className="-z-1">
       <div className="text-4xl font-semibold text-center md:text-center justify-center w-full py-4 md:px-10 px-7">
@@ -104,4 +104,4 @@ const works = () => {
   )
 }
 
-export default works
+export default WorkDesktop
