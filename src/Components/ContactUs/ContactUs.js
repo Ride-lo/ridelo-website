@@ -1,5 +1,5 @@
 import React from 'react'
-import { db } from '../../Firebase'
+import { db } from '../../firebase'
 import { useState } from 'react'
 
 const ContactUs = () => {
@@ -12,6 +12,7 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setLoader(true)
+    console.log(db)
 
     db.collection('contacts')
       .add({
@@ -38,7 +39,7 @@ const ContactUs = () => {
       <div className="text-center font-semibold text-4xl my-8"> Contact us</div>
       <div class="w-full md:w-96 md:max-w-full mx-auto">
         <div class="p-6 border border-gray-300 sm:rounded-md">
-          <form method="POST" action="#" onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
             <label class="block mb-6">
               <span class="text-gray-700">Your name</span>
               <input
@@ -108,8 +109,8 @@ const ContactUs = () => {
             </label>
             <div class="mb-6">
               <button
-                style={{ background: loader ? '#ccc' : ' #FFE600' }}
-                type="submit"
+                style={{ background: loader ? '#fff8be' : ' #FFE600' }}
+                type="Submit"
                 class="
             h-10
             px-5
