@@ -15,6 +15,7 @@
     "flowbite": "^1.4.3",
     "heroicons-react": "^1.4.1",
     "jquery": "^3.6.0",
+    "nodemailer": "^6.7.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
