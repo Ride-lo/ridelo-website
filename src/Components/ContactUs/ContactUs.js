@@ -1,12 +1,44 @@
 import React from 'react'
+import { db } from '../../Firebase'
+import { useState } from 'react'
 
 const ContactUs = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const [loader, setLoader] = useState(false)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoader(true)
+
+    db.collection('contacts')
+      .add({
+        name: name,
+        email: email,
+        message: message,
+      })
+      .then(() => {
+        setLoader(false)
+        alert('Your message has been submitted👍')
+      })
+      .catch((error) => {
+        alert(error.message)
+        setLoader(false)
+      })
+
+    setName('')
+    setEmail('')
+    setMessage('')
+  }
+
   return (
     <div>
       <div className="text-center font-semibold text-4xl my-8"> Contact us</div>
       <div class="w-full md:w-96 md:max-w-full mx-auto">
         <div class="p-6 border border-gray-300 sm:rounded-md">
-          <form method="POST" action="#">
+          <form method="POST" action="#" onSubmit={handleSubmit}>
             <label class="block mb-6">
               <span class="text-gray-700">Your name</span>
               <input
@@ -25,6 +57,8 @@ const ContactUs = () => {
             focus:ring-opacity-50
           "
                 placeholder="Joe Bloggs"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </label>
             <label class="block mb-6">
@@ -45,6 +79,8 @@ const ContactUs = () => {
             focus:ring-opacity-50
           "
                 placeholder="joe.bloggs@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
             </label>
@@ -65,11 +101,14 @@ const ContactUs = () => {
             focus:ring-opacity-50
           "
                 rows="3"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 placeholder="Tell us what you're thinking about..."
               ></textarea>
             </label>
             <div class="mb-6">
               <button
+                style={{ background: loader ? '#ccc' : ' #FFE600' }}
                 type="submit"
                 class="
             h-10
