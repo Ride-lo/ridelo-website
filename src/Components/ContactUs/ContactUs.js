@@ -1,5 +1,5 @@
 import React from 'react'
-import { db } from '../../firebase'
+import { db } from '../../Firebase'
 import { useState } from 'react'
 
 const ContactUs = () => {
