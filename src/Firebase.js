@@ -2,13 +2,13 @@ import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyD0FO8SBiPRmQGAoPR0hGDRenZBUL5EsfU',
-  authDomain: 'ridelo-india.firebaseapp.com',
-  projectId: 'ridelo-india',
-  storageBucket: 'ridelo-india.appspot.com',
-  messagingSenderId: '380737314284',
-  appId: '1:380737314284:web:77340dae249f57c17434c9',
-  measurementId: 'G-RQJ8R06JM9',
+  apiKey: 'AIzaSyC6P-bkVkdzQ5pD3aJNEfZ9r0KkwbIogTc',
+  authDomain: 'ridelo-database.firebaseapp.com',
+  projectId: 'ridelo-database',
+  storageBucket: 'ridelo-database.appspot.com',
+  messagingSenderId: '228797403338',
+  appId: '1:228797403338:web:3cb736596e9f820368a433',
+  measurementId: 'G-CB6GMB2EL1',
 }
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
