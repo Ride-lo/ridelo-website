@@ -26,7 +26,7 @@ const Works = () => {
             <div
               class="md:flex items-center my-12 md:my-0 md:static 
                      md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
-                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     mx-auto md:bg-gradient-to-bl from-black to-white
                      md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[-20deg]
                      md:mt-24 md:mt-0"
             >
@@ -45,7 +45,7 @@ const Works = () => {
             <div
               class="md:flex items-center my-12 md:my-0 md:static 
                      md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
-                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     mx-auto md:bg-gradient-to-br from-black to-white
                      md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[20deg]
                      md:mt-24 md:mt-0"
             >
@@ -82,7 +82,7 @@ const Works = () => {
             <div
               class="md:flex items-center my-12 md:my-0 md:static 
                      md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
-                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     mx-auto md:bg-gradient-to-bl from-black to-white
                      md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[-20deg]
                      md:mt-24 md:mt-0"
             >
@@ -102,7 +102,7 @@ const Works = () => {
             <div
               class="md:flex items-center my-12 md:my-0 md:static 
                      md:box-border md:h-64 md:w-96 text-black max-w-xs my-auto
-                     mx-auto md:bg-gradient-to-bl from-custom-yellow to-white
+                     mx-auto md:bg-gradient-to-br from-black to-white
                      md:p-4 md:py-5 md:px-5 md:rounded-xl md:skew-y-[20deg]
                      md:mt-24 md:mt-0"
             >

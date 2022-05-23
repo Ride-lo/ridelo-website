@@ -36,7 +36,7 @@ const Footer = () => {
             such that it would be beneficial for the customers for making the
             choice of their preference.
           </p>
-          <div class="flex mt-4">
+          {/* <div class="flex mt-4">
             <input
               type="text"
               class="
@@ -109,9 +109,9 @@ const Footer = () => {
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
-        <div class=" md:pl-32 justify-between w-full mt-4 text-center lg:flex">
+        <div class=" md:pl-32 justify-between w-full mt-4 text-center md:flex">
           <div class="w-full pt-14 px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
@@ -131,10 +131,16 @@ const Footer = () => {
                 <a class="text-white hover:text-custom-yellow" href="#features">
                   Features
                 </a>
+                
+              </li>
+              <li>
+                <a class="text-white hover:text-custom-yellow" href="#contact">
+                  Contact us
+                </a>
               </li>
             </ul>
           </div>
-          <div class="w-full px-4  pt-14  lg:w-1/3 md:w-1/2">
+          {/* <div class="w-full px-4  pt-14  lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
                 <a class="text-white hover:text-custom-yellow" href="/#">
@@ -152,8 +158,8 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="w-full  pt-14  px-4 lg:w-1/3 md:w-1/2">
+          </div> */}
+         {/*  <div class="w-full  pt-14  px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
                 <a class="text-white hover:text-custom-yellow" href="/#">
@@ -171,19 +177,19 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="w-full  pt-14  px-4 lg:w-1/3 md:w-1/2">
+          </div> */}
+          <div class="w-full  pt-14 px-4 lg:w-1/3 md:w-1/2">
             <ul class="mb-8 space-y-2 text-sm list-none">
               <li>
                 <a class="text-white hover:text-custom-yellow" href="/#">
                   Info@Ridelo.in
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a class="text-white hover:text-custom-yellow" href="/#">
                   +91 99590250019
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

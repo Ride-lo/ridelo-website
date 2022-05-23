@@ -109,19 +109,18 @@ const ContactUs = () => {
             </label>
             <div class="mb-6">
               <button
-                style={{ background: loader ? '#fff8be' : ' #FFE600' }}
+                style={{ background: '#000' }}
                 type="Submit"
                 class="
             h-10
             px-5
-            text-black
-            bg-custom-yellow
+            text-white
+            bg-black
             rounded-lg
             transition-colors
             duration-150
             focus:shadow-outline
-            hover:bg-yellow
-          "
+                      "
               >
                 Submit
               </button>
