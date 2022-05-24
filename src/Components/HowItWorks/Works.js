@@ -11,7 +11,7 @@ const Works = () => {
       <div className="text-4xl font-semibold text-center md:text-center justify-center w-full py-4 md:px-10 px-7">
         How it Works
       </div>
-      <div className="my-12 md:flex items-center justify-center">
+      <div className="my-12 mx-8 md:mx-0 md:flex items-center justify-center">
         <ul className="md:flex md:px-36 items-center justify-center mt-16">
           <li className="mr-5 ">
             <div className="text-center md:text-left text-2xl font-semibold py-5">
@@ -39,7 +39,7 @@ const Works = () => {
           </li>
         </ul>
       </div>
-      <div className="my-16 md:flex items-center justify-center">
+      <div className="my-16 mx-8 md:mx-0 md:flex items-center justify-center ">
         <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center justify-around mt-24">
           <li>
             <div
@@ -50,7 +50,7 @@ const Works = () => {
                      md:mt-24 md:mt-0"
             >
               <img
-                src={cabtype}
+                src={pickup}
                 alt="ridetype"
                 className="md:skew-y-[-20deg] relative items-center "
               />
@@ -58,24 +58,24 @@ const Works = () => {
           </li>
           <li className="mr-5">
             <div className="text-center md:text-right text-2xl font-semibold py-5">
-              Select your preferred vehicle
+              Enter the pickup and drop location
             </div>
             <div className="text-center md:max-w-xl md:text-right text-xl font-normal text-black py-5 md:pl-24">
-              Ridelo app allows you to select the type of vehicle to travel. the
-              vehicles included are auto-rikshaw, bike, hatchback, sedan, etc.
+              Tap on your location option and select your pickup location.
+              Next, put the location where you want to travel to
             </div>
           </li>
         </ul>
       </div>
-      <div className="my-16 md:flex items-center justify-center">
+      <div className="my-16 mx-8 md:mx-0 md:flex items-center justify-center">
         <ul className="md:flex md:px-36  items-center justify-between mt-24 ">
           <li className="mr-5">
             <div className="text-center md:text-left text-2xl font-semibold py-5">
-              Enter the pickup and drop location
+              Select your preferred vehicle
             </div>
             <div className="text-center md:max-w-xl md:text-left text-xl font-normal text-black py-5 ">
-              Tap on your location option and select your pickup location. Next,
-              put the location where you want to travel to
+              Ridelo app allows you to select the type of vehicle to travel.
+              the vehicles included are auto-rikshaw, bike, hatchback, sedan, etc.
             </div>
           </li>
           <li>
@@ -87,7 +87,7 @@ const Works = () => {
                      md:mt-24 md:mt-0"
             >
               <img
-                src={pickup}
+                src={cabtype}
                 alt="ridetype"
                 className="md:skew-y-[20deg] relative 
                 items-center "
@@ -96,7 +96,7 @@ const Works = () => {
           </li>
         </ul>
       </div>
-      <div className="my-16 md:my-0 md:flex items-center justify-center">
+      <div className="my-16 mx-8 md:mx-0 md:my-0 md:flex items-center justify-center">
         <ul className="flex flex-col-reverse md:flex md:flex-row md:px-36 items-center md:justify-between mt-24 ">
           <li>
             <div

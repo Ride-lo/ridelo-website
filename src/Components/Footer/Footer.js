@@ -11,13 +11,13 @@ const Footer = () => {
           py-16
           mx-auto
           md:items-center
-          lg:items-start
+          lg:items-center
           md:flex-row md:flex-nowrap
           bg-black
           
         "
       >
-        <div class=" pl-12 flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+        <div class=" md:pl-12 flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
           <a
             href="/"
             class="
