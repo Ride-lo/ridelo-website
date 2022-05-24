@@ -17,7 +17,7 @@ const Works = () => {
             <div className="text-center md:text-left text-2xl font-semibold py-5">
               Select your ride category
             </div>
-            <div className="text-justify md:max-w-xl md:text-left text-xl font-normal text-black py-5 ">
+            <div className="text-justify md:max-w-xl md:text-left text-l font-normal text-black py-5 ">
               You can select the type of ride you want. i.e; local, outstation,
               airport or rental
             </div>
@@ -60,7 +60,7 @@ const Works = () => {
             <div className="text-center md:text-right text-2xl font-semibold py-5">
               Enter the pickup and drop location
             </div>
-            <div className="text-justify md:max-w-xl md:text-right text-xl font-normal text-black py-5 md:pl-24">
+            <div className="text-justify md:max-w-xl md:text-right text-l font-normal text-black py-5 md:pl-24">
               Tap on your location option and select your pickup location.
               Next, put the location where you want to travel to
             </div>
@@ -73,7 +73,7 @@ const Works = () => {
             <div className="text-center md:text-left text-2xl font-semibold py-5">
               Select your preferred vehicle
             </div>
-            <div className="text-justify md:max-w-xl md:text-left text-xl font-normal text-black py-5 ">
+            <div className="text-justify md:max-w-xl md:text-left text-l font-normal text-black py-5 ">
               Ridelo app allows you to select the type of vehicle to travel.
               the vehicles included are auto-rikshaw, bike, hatchback, sedan, etc.
             </div>
@@ -117,7 +117,7 @@ const Works = () => {
             <div className="text-center md:text-right text-2xl font-semibold py-5">
               Select the Cab provider
             </div>
-            <div className="text-justify md:max-w-xl md:text-right text-xl font-normal text-black py-5 md:pl-24">
+            <div className="text-justify md:max-w-xl md:text-right text-l font-normal text-black py-5 md:pl-24">
               You will have the option to select the cab companies which are
               nearest or most affordable.
             </div>
