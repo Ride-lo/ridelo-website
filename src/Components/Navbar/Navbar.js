@@ -10,7 +10,7 @@ const style = { color: "white", fontSize: "1em" }
 const Navbar = () => {
   let Links = [
     { name: 'Home', link: '/' },
-    { name: 'Features', link: '#features' },
+    /* { name: 'Features', link: '#features' }, */
     { name: 'How it works', link: '#howitworks' },
     { name: 'Contact us', link: '#contact' },
   ]
