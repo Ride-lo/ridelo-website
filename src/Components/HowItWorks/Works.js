@@ -78,7 +78,7 @@ const Works = () => {
         <ul className="md:flex md:px-36 items-center justify-between mt-24 ">
           <li className="mr-5">
             <div className="text-center md:text-left text-2xl font-semibold py-5">
-              Confirmed Ride booking.
+              Ride booking Confirmed 
             </div>
             <div className="text-center md:max-w-xl md:text-left text-l font-normal text-black py-5 ">
               When the booking is confirmed in One of the apps, cancel the bookings from the other two apps.
