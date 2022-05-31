@@ -20,7 +20,7 @@ const Works = () => {
         <ul className="md:flex md:px-36 items-center justify-center mt-16">
           <li className="mr-5 ">
             <div className="text-center md:text-left text-2xl font-semibold py-5">
-              One app 3 cabs
+              One Tap One App
             </div>
             <div className="text-center md:max-w-xl md:text-left text-l font-normal text-black py-5 ">
               You can book cabs from Ola, Uber and MeruCabs from a single App.

@@ -57,7 +57,7 @@ const ContactUs = () => {
             focus:ring-indigo-200
             focus:ring-opacity-50
           "
-                placeholder="Ram"
+                placeholder="Enter your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -79,7 +79,7 @@ const ContactUs = () => {
             focus:ring-indigo-200
             focus:ring-opacity-50
           "
-                placeholder="Ram123@example.com"
+                placeholder="Enter your email address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
